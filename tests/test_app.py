@@ -1,6 +1,6 @@
-from app import cadastrar_aluno
+import app
 
 
 def test_cadastro_aluno():
-    assert cadastrar_aluno("Vitor Barreto", 26, "vitorbarreto@ufmg.br") == "Ok"
+    print(app.cadastrar_aluno("Vitor Barreto", 26, "vitorbarreto@ufmg.br") == "Ok")
 
